@@ -1,0 +1,26 @@
+1:
+  - Servers: 1
+  - Min_in: 2
+  - Max_in: 4
+  - Min_out: 1
+  - Max_out: 2
+  - Queue_links:
+    - 3: 0.2
+    - 2: 0.8
+2:
+  - Capacity: 5
+  - Servers: 2
+  - Min_out: 4
+  - Max_out: 8
+  - Queue_links:
+    - -1: 0.2
+    - 1: 0.3
+    - 2: 0.5
+3:
+  - Capacity: 10
+  - Servers: 2
+  - Min_out: 5
+  - Max_out: 15
+  - Queue_links:
+    - -1: 0.3
+    - 3: 0.7

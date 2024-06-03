@@ -1,0 +1,9 @@
+1:
+  - Capacity: 5
+  - Servers: 2
+  - Min_in: 2
+  - Max_in: 5
+  - Min_out: 3
+  - Max_out: 5
+  - Queue_links:
+    - -1: 1.0
